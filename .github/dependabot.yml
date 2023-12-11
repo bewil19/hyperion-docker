@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    # Prefix all commit messages with "Composer" plus its scope, that is, a
+    # list of updated dependencies
+    commit-message:
+      prefix: "[github-actions]"
