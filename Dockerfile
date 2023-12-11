@@ -18,6 +18,7 @@ RUN set -eux; \
 
 # HTTP and HTTPS Web UI default ports
 EXPOSE 8090
+
 EXPOSE 8092
 
 ENV UID=1000
