@@ -1,7 +1,7 @@
 name: Build Docker Images
 
 env:
-  DOCKERHUB_TAG: "bewil19/hyperion"
+  DOCKERHUB_TAG: "bewil1990/hyperion"
 
 on:
   push:
